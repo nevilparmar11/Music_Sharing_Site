@@ -9,7 +9,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} 
 
 html {
     height: 100%;
@@ -38,4 +38,14 @@ ul.errorlist > li {
 
 .glyphicon-star.active {
     color: #FDB230;
+}
+
+/* importing diff */
+
+.content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
 }

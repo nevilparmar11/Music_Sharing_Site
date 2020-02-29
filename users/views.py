@@ -6,7 +6,6 @@ from django.db.models import Q
 
 from music.models import Album, Song
 from .forms import  UserForm
-# Create your models here.
 
 
 def index(request):

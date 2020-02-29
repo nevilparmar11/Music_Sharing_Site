@@ -1,4 +1,4 @@
-{% extends 'base_visitor.html' %}
+{% extends 'base_visitor2.html' %}
 {% block title %}Log In{% endblock %}
 {% block login_active %}active{% endblock %}
 
@@ -34,7 +34,10 @@
                         <div class="form-group">
                             <div class="col-sm-offset-2 col-sm-10">
                                 <button type="submit" class="btn btn-success">Submit</button>
+                                &nbsp;&nbsp;&nbsp;
+                                <a href="{% url 'password_reset' %}">Forgot Password?</a>
                             </div>
+                            
                         </div>
                     </form>
                 </div>

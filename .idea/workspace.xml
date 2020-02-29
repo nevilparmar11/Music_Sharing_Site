@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2d44e61-3e4a-4dda-85fa-836198209fb6" name="Default Changelist" comment="" />
+    <list default="true" id="a2d44e61-3e4a-4dda-85fa-836198209fb6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base_visitor2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/users/logout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Music_Sharing_Site2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Music_Sharing_Site2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d9a64993-08b7-402d-8b9a-1bd8ff5c2887.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d9a64993-08b7-402d-8b9a-1bd8ff5c2887.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Music_Sharing_Site2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Music_Sharing_Site2/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Music_Sharing_Site2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Music_Sharing_Site2/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/music/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/music/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base_visitor.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base_visitor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/users/password_reset_confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/password_reset_confirm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/users/password_reset_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/password_reset_done.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,20 +31,28 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YHVdjWlu4N0xgHiZJPsFEGFhMc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -35,7 +61,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="Music_Sharing_Site2" type="Python.DjangoServer" factoryName="Django server">
@@ -76,36 +102,56 @@
       <workItem from="1582599597189" duration="4835000" />
       <workItem from="1582617281154" duration="5000" />
       <workItem from="1582626059201" duration="3023000" />
+      <workItem from="1582631725941" duration="1934000" />
+      <workItem from="1582824881182" duration="4649000" />
+      <workItem from="1582830971732" duration="865000" />
+      <workItem from="1582835502664" duration="183000" />
+      <workItem from="1582882842026" duration="14000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="496" y="39" key="#Music_Sharing_Site2" timestamp="1582830568309">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="496" y="39" key="#Music_Sharing_Site2/0.0.1536.864@0.0.1536.864" timestamp="1582830568309" />
     <state x="361" y="94" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582626074323">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="94" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1582626074323" />
+    <state x="512" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582831027654">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="512" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1582831027654" />
     <state x="549" y="190" key="FileChooserDialogImpl" timestamp="1582600069530">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1582600069530" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1582629127701">
+    <state width="1493" height="374" key="GridCell.Tab.0.bottom" timestamp="1582882855619">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1582629127701" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1582629127700">
+    <state width="1493" height="374" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1582882855619" />
+    <state width="1493" height="374" key="GridCell.Tab.0.center" timestamp="1582882855619">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1582629127700" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1582629127700">
+    <state width="1493" height="374" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1582882855619" />
+    <state width="1493" height="374" key="GridCell.Tab.0.left" timestamp="1582882855619">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1582629127700" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1582629127700">
+    <state width="1493" height="374" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1582882855619" />
+    <state width="1493" height="374" key="GridCell.Tab.0.right" timestamp="1582882855619">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1582629127700" />
+    <state width="1493" height="374" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1582882855619" />
+    <state x="279" y="78" key="SettingsEditor" timestamp="1582830349849">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="279" y="78" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1582830349849" />
   </component>
 </project>
