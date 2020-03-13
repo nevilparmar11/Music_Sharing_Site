@@ -11,7 +11,7 @@ from django.contrib.auth import views as auth_views
 
 urlpatterns = [
     path('', user_views.index, name='index'),
-    #path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
     path('users/',include(users.urls)),
     path('music/',include(music.urls)),
     path('password-reset/',

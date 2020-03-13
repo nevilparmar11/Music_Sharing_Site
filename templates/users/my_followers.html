@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %}Log In{% endblock %}
+{% block login_active %}active{% endblock %}
+
+{% block body %}
+<div class="container-fluid">
+
+  <div class="row">
+      <div class="col-sm-12 col-md-6">
+          <div class="panel panel-default">
+              <div class="panel-body">
+                <h3>My Followers</h3><hr>
+                {% for follower in my_followers %}
+                  <ul>
+                    <li>{{follower.first_name}}&nbsp;&nbsp;&nbsp;&nbsp;<a href="{% url 'users:follower_profile' follower_id=follower.id %}">View Profile</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+
+</div>
+  
+  {% endfor %}
+{% endblock %}
+

@@ -46,6 +46,16 @@
                     </a>
                 </li>
                 <li>
+                    <a href="{% url 'users:follow_users' %}">
+                        <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>&nbsp; Follow People
+                    </a>
+                </li>
+                 <li>
+                    <a href="{% url 'users:profile' %}">
+                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp; My Profile
+                    </a>
+                </li>
+                <li>
                     <a href="{% url 'users:logout_user' %}">
                         <span class="glyphicon glyphicon-off" aria-hidden="true"></span>&nbsp; Logout
                     </a>

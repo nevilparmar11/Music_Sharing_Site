@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block title %}Log In{% endblock %}
+{% block login_active %}active{% endblock %}
+
+{% block body %}
+
+  <div class="container-fluid">
+
+    <div class="row">
+        <div class="col-sm-12 col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                  <h3>{{request.session.username}}'s Profile</h3>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="{% url 'users:edit_profile' %}">Edit Profile</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="{% url 'users:index' %}">Home</a><br>
+                    <hr><br>
+                    <p>
+                      <b>First Name:</b> {{request.session.first_name}}<br><br><br>
+                      <b>Last Name:</b> {{request.session.last_name}} <br><br><br>
+                      <b>Email:</b> {{request.session.email}} <br><br><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
+

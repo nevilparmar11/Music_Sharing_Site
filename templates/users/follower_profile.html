@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block title %}Log In{% endblock %}
+{% block login_active %}active{% endblock %}
+
+{% block body %}
+
+
+  <div class="row">
+      <div class="col-sm-12 col-md-6">
+          <div class="panel panel-default">
+              <div class="panel-body">
+               
+                <h3>{{friend.first_name}}'s Profile</h3>
+                <a href="{% url 'users:my_followers' %}">Back to My Followers</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="{% url 'users:index' %}">Home</a><br>
+                <hr>
+                <p>
+                  <b>First Name:</b> {{friend.first_name}} <br><br><br>
+                  <b>Last Name:</b> {{friend.last_name}} <br><br><br>
+                  <b>Email:</b> {{friend.email}} <br><br><br>
+                </p>
+              </div>
+          </div>
+      </div>
+  </div>
+
+</div>
+  
+{% endblock %}
+
