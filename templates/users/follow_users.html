@@ -22,6 +22,7 @@
                   <ul>
                     <li>{{friend.first_name}} {{friend.last_name}}&nbsp;&nbsp;&nbsp;&nbsp;<a href="{% url 'users:unfollow' followee_id=friend.id %}">Unfollow</a></li>
                   </ul>
+                {% endfor %}
               </div>
           </div>
       </div>
@@ -29,7 +30,6 @@
 
 </div>
   
-  {% endfor %}
 
 {% endblock %}
 
