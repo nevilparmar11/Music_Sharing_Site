@@ -2,123 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2d44e61-3e4a-4dda-85fa-836198209fb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dj_database_url-0.5.0.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dj_database_url-0.5.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dj_database_url-0.5.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dj_database_url-0.5.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dj_database_url-0.5.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dj_database_url-0.5.0.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dj_database_url-0.5.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dj_database_url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_heroku-0.3.1.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_heroku-0.3.1.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_heroku-0.3.1.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_heroku-0.3.1.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_heroku-0.3.1.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_heroku-0.3.1.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_heroku-0.3.1.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_heroku/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_heroku/__version__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_heroku/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn-20.0.4.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn-20.0.4.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn-20.0.4.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn-20.0.4.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn-20.0.4.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn-20.0.4.dist-info/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn-20.0.4.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/app/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/app/pasterapp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/app/wsgiapp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/arbiter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/debug.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/glogging.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/http/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/http/body.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/http/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/http/message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/http/parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/http/unreader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/http/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/instrument/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/instrument/statsd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/pidfile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/reloader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/sock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/systemd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/workers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/workers/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/workers/base_async.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/workers/geventlet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/workers/ggevent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/workers/gthread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/workers/gtornado.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/workers/sync.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/workers/workertmp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2-2.8.5.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2-2.8.5.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2-2.8.5.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2-2.8.5.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2-2.8.5.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2-2.8.5.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/_ipaddress.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/_lru_cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/_psycopg.cp37-win_amd64.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/_range.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/errorcodes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/extensions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/extras.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/pool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/sql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/tz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise-5.0.1.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise-5.0.1.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise-5.0.1.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise-5.0.1.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise-5.0.1.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise-5.0.1.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/compress.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/django.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/httpstatus_backport.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/media_types.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/middleware.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/responders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/runserver_nostatic/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/runserver_nostatic/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/runserver_nostatic/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/runserver_nostatic/management/commands/runserver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/scantree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/storage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/string_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/gunicorn.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Music_Sharing_Site2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Music_Sharing_Site2/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/IMG_20190103_001518_570.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Nevil.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Nevil_EkHU2L9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/file_example_MP3_700KB.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/file_example_MP3_700KB_ISilJgm.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/file_example_MP3_700KB_IWX9u2q.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/file_example_MP3_700KB_R4Ce2bo.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/file_example_MP3_700KB_k1r7HRV.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/mado-el-khouly-LtEnz8x336I-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/music/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/users/follow_users.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/follow_users.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,6 +174,8 @@
       <workItem from="1585066464178" duration="301000" />
       <workItem from="1586800856770" duration="202000" />
       <workItem from="1586801630020" duration="507000" />
+      <workItem from="1586802149716" duration="1080000" />
+      <workItem from="1586842263943" duration="126000" />
     </task>
     <task id="LOCAL-00001" summary="follower,followee functionality Updated.">
       <created>1584130688224</created>
