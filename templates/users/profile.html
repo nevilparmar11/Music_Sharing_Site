@@ -11,7 +11,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">
                   <h3>{{request.session.username}}'s Profile</h3>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="{{ request.session.profile_pic }}">
                     <a href="{% url 'users:edit_profile' %}">Edit Profile</a>&nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="{% url 'users:index' %}">Home</a><br>
                     <hr><br>

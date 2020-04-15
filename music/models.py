@@ -7,7 +7,7 @@ class Album(models.Model):
     artist = models.CharField(max_length=250)
     album_title = models.CharField(max_length=500)
     genre = models.CharField(max_length=100)
-    album_logo = models.FileField()
+    album_logo = models.FileField(upload_to="album_logos/")
     is_favorite = models.BooleanField(default=False)
 
     def __str__(self):
@@ -17,7 +17,7 @@ class Album(models.Model):
 class Song(models.Model):
     album = models.ForeignKey(Album, on_delete=models.CASCADE)
     song_title = models.CharField(max_length=250)
-    audio_file = models.FileField(default='')
+    audio_file = models.FileField(upload_to="songs/")
     is_favorite = models.BooleanField(default=False)
 
     def __str__(self):
