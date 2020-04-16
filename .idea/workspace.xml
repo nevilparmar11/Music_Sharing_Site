@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2d44e61-3e4a-4dda-85fa-836198209fb6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/music/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/music/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +183,7 @@
       <workItem from="1586880943262" duration="3586000" />
       <workItem from="1586892720046" duration="3807000" />
       <workItem from="1586967122613" duration="12347000" />
-      <workItem from="1587039130639" duration="23265000" />
+      <workItem from="1587039130639" duration="23555000" />
     </task>
     <task id="LOCAL-00001" summary="follower,followee functionality Updated.">
       <created>1584130688224</created>

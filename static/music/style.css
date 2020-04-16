@@ -24,7 +24,7 @@ ul.errorlist > li {
 }
 
 .navbar {
-    border-radius: 1000px;
+    border-radius: 0;
 }
 
 .navbar-brand {
