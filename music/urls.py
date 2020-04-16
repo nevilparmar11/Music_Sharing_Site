@@ -2,6 +2,8 @@ from django.conf.urls import url
 from . import views
 from django.urls import path,include
 
+from .views import toggle
+
 app_name = 'music'
 
 urlpatterns = [
@@ -14,6 +16,7 @@ urlpatterns = [
     # url(r'^(?P<album_id>[0-9]+)/delete_song/(?P<song_id>[0-9]+)/$', views.delete_song, name='delete_song'),
     # url(r'^(?P<album_id>[0-9]+)/favorite_album/$', views.favorite_album, name='favorite_album'),
     # url(r'^(?P<album_id>[0-9]+)/delete_album/$', views.delete_album, name='delete_album'),
+    path('toggle/(<album_id>)',views.toggle,name='toggle'),
     path('(<album_id>[0-9]+)/', views.detail, name='detail'),
     path('(<song_id>[0-9]+)/favorite/', views.favorite, name='favorite'),
     path('songs/(<filter_by>[a-zA_Z]+)/', views.songs, name='songs'),

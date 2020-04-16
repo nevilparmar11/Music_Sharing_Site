@@ -14,6 +14,7 @@ def create_album(request):
         form = AlbumForm(request.POST or None, request.FILES or None)
         if form.is_valid():
             album = form.save(commit=False)
+            album.is_private = form.cleaned_data['is_private']
             album.user = request.user
             album.album_logo = request.FILES['album_logo']
             file_type = album.album_logo.url.split('.')[-1]
@@ -118,6 +119,7 @@ def favorite_album(request, album_id):
     else:
         return JsonResponse({'success': True})
 
+
 def songs(request, filter_by):
     if not request.user.is_authenticated:
         return render(request, '../templates/users/login.html')
@@ -136,3 +138,12 @@ def songs(request, filter_by):
             'song_list': users_songs,
             'filter_by': filter_by,
         })
+
+def toggle(request,album_id):
+    print("inside toggle")
+    w = get_object_or_404(Album, pk=album_id)
+    w.is_private = not w.is_private
+    w.save()
+    user = request.user
+    album = get_object_or_404(Album, pk=album_id)
+    return render(request, '../templates/music/detail.html', {'album': album, 'user': user})

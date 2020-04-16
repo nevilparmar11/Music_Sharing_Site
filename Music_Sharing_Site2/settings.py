@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'music',
     'users',
     'crispy_forms',
+    'django_toggle_switch_widget'
 ]
 
 MIDDLEWARE = [

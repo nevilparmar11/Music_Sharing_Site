@@ -9,6 +9,9 @@ class Album(models.Model):
     genre = models.CharField(max_length=100)
     album_logo = models.FileField(upload_to="album_logos/")
     is_favorite = models.BooleanField(default=False)
+    is_private = models.BooleanField(default=True,help_text="Is this a private album ? ")
+    total_songs = models.IntegerField(default=0)
+    shared = models.BooleanField(default=False)
 
     def __str__(self):
         return self.album_title + ' - ' + self.artist

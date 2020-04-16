@@ -1,6 +1,6 @@
 body {
     
-    background: url("images/background.jpg");
+    background: url("images/backround.jpg");
     
     height: 100%; 
 
@@ -24,7 +24,7 @@ ul.errorlist > li {
 }
 
 .navbar {
-    border-radius: 0;
+    border-radius: 1000px;
 }
 
 .navbar-brand {
@@ -49,3 +49,5 @@ ul.errorlist > li {
     border-radius: 3px;
     margin-bottom: 20px;
 }
+
+
