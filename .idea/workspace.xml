@@ -2,47 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2d44e61-3e4a-4dda-85fa-836198209fb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/music/migrations/0003_auto_20200416_1759.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/migrations/0004_album_shared.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/album_logos/3d-3840x2160-mountains-sand-planet-sky-5254.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/album_logos/3d-3840x2160-mountains-sand-planet-sky-5254_GNhSEMC.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/album_logos/3d-3840x2160-mountains-sand-planet-sky-5254_OPVfDfP.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/album_logos/3d-3840x2160-mountains-sand-planet-sky-5254_UzaCMjz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/album_logos/3d-3840x2160-mountains-sand-planet-sky-5254_ZyzUa6p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/album_logos/3d-3840x2160-mountains-sand-planet-sky-5254_h5vnbWY.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/album_logos/3d-3840x2160-mountains-sand-planet-sky-5254_pSWK4FD.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/album_logos/3d-3840x2160-mountains-sand-planet-sky-5254_qxWHrpM.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_toggle_switch_widget-0.1.0-py3.7.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_toggle_switch_widget-0.1.0-py3.7.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_toggle_switch_widget-0.1.0-py3.7.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_toggle_switch_widget-0.1.0-py3.7.egg-info/installed-files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_toggle_switch_widget-0.1.0-py3.7.egg-info/not-zip-safe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_toggle_switch_widget-0.1.0-py3.7.egg-info/requires.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_toggle_switch_widget-0.1.0-py3.7.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_toggle_switch_widget/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_toggle_switch_widget/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_toggle_switch_widget/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_toggle_switch_widget/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_toggle_switch_widget/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_toggle_switch_widget/static/django-toggle-switch-widget/css/django-toggle-switch-widget.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_toggle_switch_widget/templates/django-toggle-switch-widget/django-toggle-switch-widget.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_toggle_switch_widget/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_toggle_switch_widget/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_toggle_switch_widget/widgets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Music_Sharing_Site2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Music_Sharing_Site2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Music_Sharing_Site2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Music_Sharing_Site2/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/music/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/music/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/music/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/music/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/music/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/music/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/music/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/music/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/music/create_album.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/music/create_album.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/music/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/music/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +183,7 @@
       <workItem from="1586880943262" duration="3586000" />
       <workItem from="1586892720046" duration="3807000" />
       <workItem from="1586967122613" duration="12347000" />
-      <workItem from="1587039130639" duration="22764000" />
+      <workItem from="1587039130639" duration="23087000" />
     </task>
     <task id="LOCAL-00001" summary="follower,followee functionality Updated.">
       <created>1584130688224</created>
@@ -282,25 +243,25 @@
     </state>
     <state x="549" y="183" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1584206200818" />
     <state x="549" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1582600069530" />
-    <state width="1493" height="266" key="GridCell.Tab.0.bottom" timestamp="1587073194108">
+    <state width="1493" height="266" key="GridCell.Tab.0.bottom" timestamp="1587073408601">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1587073194108" />
+    <state width="1493" height="266" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1587073408601" />
     <state width="1493" height="374" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1582882855619" />
-    <state width="1493" height="266" key="GridCell.Tab.0.center" timestamp="1587073194108">
+    <state width="1493" height="266" key="GridCell.Tab.0.center" timestamp="1587073408601">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1587073194108" />
+    <state width="1493" height="266" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1587073408601" />
     <state width="1493" height="374" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1582882855619" />
-    <state width="1493" height="266" key="GridCell.Tab.0.left" timestamp="1587073194108">
+    <state width="1493" height="266" key="GridCell.Tab.0.left" timestamp="1587073408601">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1587073194108" />
+    <state width="1493" height="266" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1587073408601" />
     <state width="1493" height="374" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1582882855619" />
-    <state width="1493" height="266" key="GridCell.Tab.0.right" timestamp="1587073194108">
+    <state width="1493" height="266" key="GridCell.Tab.0.right" timestamp="1587073408601">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1587073194108" />
+    <state width="1493" height="266" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1587073408601" />
     <state width="1493" height="374" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1582882855619" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1586985851195">
       <screen x="0" y="0" width="1536" height="834" />
