@@ -50,4 +50,6 @@ ul.errorlist > li {
     margin-bottom: 20px;
 }
 
-
+.private-area {
+  margin: 0 0 3px 0;
+}

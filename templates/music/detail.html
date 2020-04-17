@@ -92,24 +92,6 @@
                         </a>
                         <h1>{{ album.album_title }} <small>{{ album.genre }}</small></h1>
                         <h2>{{ album.artist }}</h2>
-
-                        <label>Is
-                        this
-                        a
-                        private
-                        album ?</label>
-                        {% if album.is_private %}
-                            <label class="switch">
-                            <input data-href="{% url 'music:toggle' album.id %}" type="checkbox" id="checkbox" checked onclick="myFunction()">
-                            <span class="slider round"></span>
-                            </label>
-                        {% else %}
-                            <label class="switch">
-                            <input data-href="{% url 'music:toggle' album.id %}" type="checkbox" id="checkbox" value="{{ album.is_private }}" onclick="myFunction()">
-                            <span class="slider round"></span>
-                            </label>
-                        {% endif %}
-
                     </div>
                 </div>
             </div>
@@ -120,6 +102,22 @@
                 <ul class="nav nav-pills" style="margin-bottom: 10px;">
                     <li role="presentation" class="active"><a href="{% url 'music:detail' album.id %}">View All</a></li>
                     <li role="presentation"><a href="{% url 'music:create_song' album.id %}">Add New Song</a></li>
+                    <pre class="col-sm-4 col-md-4"><li role="presentation"><h4>            Total songs : {{ album.total_songs }}</h4></li></pre>
+                    <div class="col-md-2"><li >
+                        <label>Is this a private album ?</label>
+                        {% if album.is_private %}
+                            <label class="switch col-md-offset-4">
+                            <input data-href="{% url 'music:toggle' album.id %}" type="checkbox" id="checkbox" checked onclick="myFunction()">
+                            <span class="slider round"></span>
+                            </label>
+                        {% else %}
+                            <label class="switch">
+                            <input data-href="{% url 'music:toggle' album.id %}" type="checkbox" id="checkbox" value="{{ album.is_private }}" onclick="myFunction()">
+                            <span class="slider round"></span>
+                            </label>
+                        {% endif %}
+                    </li>
+                    </div>
                 </ul>
 
                 <div class="panel panel-default">

@@ -25,3 +25,8 @@ class Song(models.Model):
 
     def __str__(self):
         return self.song_title
+
+class Shared_album(models.Model):
+    owner = models.ForeignKey(User,on_delete=models.CASCADE,related_name='%(class)s_album_sender')
+    receiver = models.ForeignKey(User, on_delete=models.CASCADE,related_name='%(class)s_album_receiver')
+    album_title = models.ForeignKey(Album,on_delete=models.CASCADE)

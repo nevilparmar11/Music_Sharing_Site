@@ -1,3 +1,5 @@
+from itertools import chain
+
 from django.contrib import messages
 from django.contrib.auth import authenticate, login
 from django.contrib.auth import logout
@@ -6,7 +8,7 @@ from django.http import JsonResponse
 from django.shortcuts import render, get_object_or_404, redirect
 from django.db.models import Q
 
-from music.models import Album, Song
+from music.models import Album, Song, Shared_album
 from .forms import  UserForm
 from .models import Friend
 
@@ -15,6 +17,14 @@ def index(request):
     if not request.user.is_authenticated:
         return render(request, 'users/login.html')
     else:
+        followee = Friend.objects.filter(follower=request.user)
+        friends_albums = []
+        for follo in followee:
+            x = Album.objects.filter(Q(user=follo.followee)).exclude(is_private=True)
+            friends_albums = chain(friends_albums,x)
+
+        received_albums = Shared_album.objects.filter(receiver__username__exact=request.user.username)
+        public_albums = Album.objects.exclude(user=request.user).filter(is_private=False)
         albums = Album.objects.filter(user=request.user)
         song_results = Song.objects.all()
         query = request.GET.get("q")
@@ -31,7 +41,13 @@ def index(request):
                 'songs': song_results,
             })
         else:
-            return render(request, 'users/index.html', {'albums': albums})
+            context = {
+                'albums': albums , # unique albums
+                'received_albums': received_albums,
+                'public_albums': public_albums,
+                'friends_albums': friends_albums
+            }
+            return render(request, 'users/index.html', context )
 
 
 def logout_user(request):
@@ -57,8 +73,22 @@ def login_user(request):
             request.session['password'] = user.password
             if user.is_active:
                 login(request, user)
+                followee = Friend.objects.filter(follower=request.user)
+                friends_albums = []
+                for follo in followee:
+                    x = Album.objects.filter(Q(user=follo.followee)).exclude(is_private=True)
+                    friends_albums = chain(friends_albums, x)
+
+                received_albums = Shared_album.objects.filter(receiver=request.user)
+                public_albums = Album.objects.exclude(user=request.user).filter(is_private=False)
                 albums = Album.objects.filter(user=request.user)
-                return render(request, 'users/index.html', {'albums': albums})
+                context = {
+                    'albums': albums,  # unique albums
+                    'received_albums': received_albums,
+                    'public_albums': public_albums,
+                    'friends_albums': friends_albums
+                }
+                return render(request, 'users/index.html', context)
             else:
                 return render(request, 'users/login.html', {'error_message': 'Your account has been disabled'})
         else:

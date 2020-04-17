@@ -1,7 +1,10 @@
 from django.http import JsonResponse
 from django.shortcuts import render, get_object_or_404
+from django.template.response import TemplateResponse
+
 from .forms import AlbumForm, SongForm
-from .models import Album, Song
+from .models import Album, Song, Shared_album
+from django.contrib.auth.models import User
 
 AUDIO_FILE_TYPES = ['wav', 'mp3', 'ogg']
 IMAGE_FILE_TYPES = ['png', 'jpg', 'jpeg']
@@ -59,7 +62,8 @@ def create_song(request, album_id):
                 'error_message': 'Audio file must be WAV, MP3, or OGG',
             }
             return render(request, '../templates/music/create_song.html', context)
-
+        album.total_songs = album.total_songs + 1
+        album.save()
         song.save()
         return render(request, '../templates/music/detail.html', {'album': album})
     context = {
@@ -79,6 +83,8 @@ def delete_album(request, album_id):
 def delete_song(request, album_id, song_id):
     album = get_object_or_404(Album, pk=album_id)
     song = Song.objects.get(pk=song_id)
+    album.total_songs -= 1
+    album.save()
     song.delete()
     return render(request, '../templates/music/detail.html', {'album': album})
 
@@ -147,3 +153,47 @@ def toggle(request,album_id):
     user = request.user
     album = get_object_or_404(Album, pk=album_id)
     return render(request, '../templates/music/detail.html', {'album': album, 'user': user})
+
+
+def share_album(request, album_id):
+    album = get_object_or_404(Album,pk=album_id)
+    already_shared_users = Shared_album.objects.filter(album_title=album)
+    all_users_objects = User.objects.exclude(username=request.user.username)
+    
+    all_users = []
+    for u in all_users_objects:
+        all_users.append(u.username)
+
+    shared_users_list = []
+    for u in already_shared_users:
+        shared_users_list.append(u.receiver.username)
+
+    unshared_users = list(set(all_users) - set(shared_users_list))
+
+    context = {
+        "shared_users": shared_users_list,
+        "unshared_users":unshared_users,
+        "album_id": album_id
+    }
+    return render(request,'../templates/music/share_album.html',context)
+
+def share_album_detail(request, album_id):
+    if not request.user.is_authenticated:
+        return render(request, '../templates/users/login.html')
+    else:
+        user = request.user
+        album = get_object_or_404(Album, pk=album_id)
+        return render(request, '../templates/music/shared_album_detail.html', {'album': album, 'user': user})
+
+
+def share(request,album_id,username):
+    album = get_object_or_404(Album,pk=album_id)
+    receiver = get_object_or_404(User,username=username)
+    Shared_album.objects.create(owner=request.user,receiver=receiver,album_title=album)
+    return share_album(request,album_id)
+
+def unshare(request,album_id,username):
+    album = Shared_album.objects.filter(receiver__username=username,album_title=get_object_or_404(Album,pk=album_id))
+    print(album)
+    album.delete()
+    return share_album(request,album_id)
