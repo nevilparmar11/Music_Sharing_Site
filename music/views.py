@@ -1,7 +1,11 @@
+from itertools import chain
+
+from django.db.models import Q
 from django.http import JsonResponse
 from django.shortcuts import render, get_object_or_404
 from django.template.response import TemplateResponse
 
+from users.models import Friend
 from .forms import AlbumForm, SongForm
 from .models import Album, Song, Shared_album
 from django.contrib.auth.models import User
@@ -77,7 +81,21 @@ def delete_album(request, album_id):
     album = Album.objects.get(pk=album_id)
     album.delete()
     albums = Album.objects.filter(user=request.user)
-    return render(request, '../templates/users/index.html', {'albums': albums})
+    followee = Friend.objects.filter(follower=request.user)
+    friends_albums = []
+    for follo in followee:
+        x = Album.objects.filter(Q(user=follo.followee)).exclude(is_private=True)
+        friends_albums = chain(friends_albums, x)
+
+    received_albums = Shared_album.objects.filter(receiver=request.user)
+    public_albums = Album.objects.exclude(user=request.user).filter(is_private=False)
+    context = {
+        'albums': albums,  # unique albums
+        'received_albums': received_albums,
+        'public_albums': public_albums,
+        'friends_albums': friends_albums
+    }
+    return render(request, 'users/index.html', context)
 
 
 def delete_song(request, album_id, song_id):

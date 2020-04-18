@@ -140,7 +140,41 @@ def register(request):
     return render(request, 'users/register.html', context)
 
 def profile(request):
-    return render(request, 'users/profile.html')
+    followee = Friend.objects.filter(follower__username__exact=request.user.username)
+    following_count = followee.count()
+    friends_albums = []
+    for follo in followee:
+        x = Album.objects.filter(Q(user=follo.followee)).exclude(is_private=True)
+        friends_albums = list(chain(friends_albums, x))
+
+    print(friends_albums)
+
+    received_albums = Shared_album.objects.filter(receiver=request.user)
+
+    public_albums = Album.objects.exclude(user=request.user).filter(is_private=False)
+    private_albums = Album.objects.filter(user=request.user,is_private=True)
+
+    #find folowers count
+    followers = Friend.objects.filter(followee__username__exact=request.user.username)
+    followers_count = followers.count()
+
+    #find shared_albums which are private
+    list_of_ids = []
+    for pa in private_albums:
+        list_of_ids.append(pa.id)
+
+    shared_albums = Shared_album.objects.filter(album_title_id__in=list_of_ids)
+
+    context = {
+        'private_albums': private_albums,  # unique albums
+        'received_albums': received_albums,
+        'public_albums': public_albums,
+        'shared_albums':shared_albums,
+        'friends_albums': friends_albums,
+        'following_count':following_count,
+        'followers_count': followers_count
+    }
+    return render(request, 'users/profile.html', context)
 
 
 def edit_profile(request):
@@ -204,13 +238,13 @@ def unfollow(request, followee_id):
 
 def my_followers(request):
     context = {
-        "my_followers": User.objects.filter(followers__follower_id=request.session['id'])
+        "my_followers": Friend.objects.filter(followee__id=request.session['id'])
         }
     return render(request, 'users/my_followers.html', context)
 
 
 def follower_profile(request, follower_id):
     context = {
-        "friend": User.objects.get(id=follower_id)
+        "friend": Friend.objects.get(id=follower_id)
     }
     return render(request, 'users/follower_profile.html', context)

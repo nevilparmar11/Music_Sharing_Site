@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2d44e61-3e4a-4dda-85fa-836198209fb6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/uploads/album_logos/8729850D-709E-4B6F-885C-710F1B59ECABL0001_81L6OPI.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Music_Sharing_Site2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Music_Sharing_Site2/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/music/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/users/follower_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/follower_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/users/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/users/my_followers.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/my_followers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +93,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Django server.Music_Sharing_Site2">
+  <component name="RunManager" selected="Django Server.Music_Sharing_Site2">
     <configuration name="detail.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Music_Sharing_Site2/templates/music/detail.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -187,7 +193,7 @@
       <workItem from="1587039130639" duration="23822000" />
       <workItem from="1587103285437" duration="19645000" />
       <workItem from="1587147776768" duration="13621000" />
-      <workItem from="1587202128267" duration="9565000" />
+      <workItem from="1587202128267" duration="20106000" />
     </task>
     <task id="LOCAL-00001" summary="follower,followee functionality Updated.">
       <created>1584130688224</created>
@@ -238,6 +244,10 @@
     </state>
     <state x="512" y="227" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1586801944737" />
     <state x="512" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1582831027654" />
+    <state x="449" y="153" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587238968611">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="449" y="153" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1587238968611" />
     <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587213523627">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -251,25 +261,25 @@
     </state>
     <state x="549" y="183" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1584206200818" />
     <state x="549" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1582600069530" />
-    <state width="1493" height="455" key="GridCell.Tab.0.bottom" timestamp="1587214594950">
+    <state width="1493" height="253" key="GridCell.Tab.0.bottom" timestamp="1587239009250">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="455" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1587214594950" />
+    <state width="1493" height="253" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1587239009250" />
     <state width="1493" height="374" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1582882855619" />
-    <state width="1493" height="455" key="GridCell.Tab.0.center" timestamp="1587214594950">
+    <state width="1493" height="253" key="GridCell.Tab.0.center" timestamp="1587239009250">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="455" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1587214594950" />
+    <state width="1493" height="253" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1587239009250" />
     <state width="1493" height="374" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1582882855619" />
-    <state width="1493" height="455" key="GridCell.Tab.0.left" timestamp="1587214594950">
+    <state width="1493" height="253" key="GridCell.Tab.0.left" timestamp="1587239009250">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="455" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1587214594950" />
+    <state width="1493" height="253" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1587239009250" />
     <state width="1493" height="374" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1582882855619" />
-    <state width="1493" height="455" key="GridCell.Tab.0.right" timestamp="1587214594950">
+    <state width="1493" height="253" key="GridCell.Tab.0.right" timestamp="1587239009250">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="455" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1587214594950" />
+    <state width="1493" height="253" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1587239009250" />
     <state width="1493" height="374" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1582882855619" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1586985851195">
       <screen x="0" y="0" width="1536" height="834" />
@@ -292,10 +302,10 @@
     </state>
     <state x="279" y="75" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1586892829161" />
     <state x="279" y="78" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1582830349849" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1587204816257">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1587233135575">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1587204816257" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1587233135575" />
     <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1584118337358">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -308,6 +318,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="0" y="0" width="738" height="834" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1586972083527" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1587236980801">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1587236980801" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Music_Sharing_Site2$manage.coverage" NAME="manage Coverage Results" MODIFIED="1584117673490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
