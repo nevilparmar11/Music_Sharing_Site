@@ -30,3 +30,4 @@ urlpatterns = [
     path('share/(<album_id>[0-9]+)/(?P<username>[\w\-]+)/$', views.share, name="share"),
     path('unshare/(<album_id>[0-9]+)/(?P<username>[\w\-]+)/$', views.unshare, name="unshare"),
 ]
+

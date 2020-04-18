@@ -13,6 +13,7 @@ from .forms import  UserForm
 from .models import Friend
 
 
+
 def index(request):
     if not request.user.is_authenticated:
         return render(request, 'users/login.html')
