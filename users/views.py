@@ -29,15 +29,30 @@ def index(request):
         song_results = Song.objects.all()
         query = request.GET.get("q")
         if query:
-            albums = albums.filter(
+            public_albums_search = public_albums.filter(
                 Q(album_title__icontains=query) |
                 Q(artist__icontains=query)
             ).distinct()
+
+            own_albums_search = albums.filter(
+                Q(album_title__icontains=query) |
+                Q(artist__icontains=query)
+            ).distinct()
+
+            received_albums_search = received_albums.filter(
+                Q(album_title__album_title__icontains=query) |
+                Q(album_title__artist__icontains=query)
+            ).distinct()
+
             song_results = song_results.filter(
                 Q(song_title__icontains=query)
             ).distinct()
+
             return render(request, 'users/index.html', {
-                'albums': albums,
+                'public_albums_search': public_albums_search,
+                'received_albums_search' : received_albums_search,
+                'own_albums_search': own_albums_search,
+                'query':query,
                 'songs': song_results,
             })
         else:
