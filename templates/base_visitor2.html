@@ -13,7 +13,8 @@
     <script src="{% static 'music/js/main.js' %}"></script>
 </head>
 <body>
-<nav class="navbar navbar-inverse">
+{#<nav class="navbar navbar-inverse">#}
+<header class="header-section clearfix header-blue">
     <div class="container-fluid">
 
         <!-- Header -->
@@ -23,19 +24,20 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{% url 'users:index' %}">My music</a>
+            <a class="navbar-brand" href="{% url 'home' %}" class="span-visitor" style="color: white">CTK Music</a>
         </div>
 
         <!-- Items -->
         <div class="collapse navbar-collapse" id="topNavBar">
             <ul class="nav navbar-nav">
-                <li class="{% block register_active %}{% endblock %}"><a href="{% url 'users:register' %}">Register</a></li>
-                <li class="{% block login_active %}{% endblock %}"><a href="{% url 'users:login_user' %}">Log In</a></li>
+                <li class="{% block register_active %}{% endblock %}"><a href="{% url 'users:register' %}" class="span-visitor">Register</a></li>
+                <li class="{% block login_active %}{% endblock %}"><a href="{% url 'users:login_user' %}" class="span-visitor">Log In</a></li>
             </ul>
         </div>
 
     </div>
-</nav>
+{#</nav>#}
+</header>
 {% block body%}
 {% endblock body %}
 </body>

@@ -3,11 +3,13 @@
 {% block songs_active %}active{% endblock %}
 
 {% block body %}
+     <br><br>
 <div class="container-fluid songs-container">
 
     <div class="row">
         <div class="col-sm-12">
             <ul class="nav nav-pills" style="margin-bottom: 10px;">
+
                 <li role="presentation" {% if filter_by == 'all' %}class="active"{% endif %}><a href="{% url 'music:songs' 'all' %}">View All</a></li>
                 <li role="presentation" {% if filter_by == 'favorites' %}class="active"{% endif %}><a href="{% url 'music:songs' 'favorites' %}">Favorites</a></li>
             </ul>

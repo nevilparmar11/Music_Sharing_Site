@@ -65,6 +65,8 @@ def index(request):
             }
             return render(request, 'users/index.html', context )
 
+def home(request):
+    return render(request,'home.html')
 
 def logout_user(request):
     logout(request)
