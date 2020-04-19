@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="a2d44e61-3e4a-4dda-85fa-836198209fb6" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="a2d44e61-3e4a-4dda-85fa-836198209fb6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/music/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/music/style.css" afterDir="false" />
+    </list>
+>>>>>>> 183c61c8b5ec37e1ba111a505e722818bc671fff
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +69,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -176,6 +184,8 @@
       <workItem from="1587103285437" duration="19645000" />
       <workItem from="1587147776768" duration="13621000" />
       <workItem from="1587202128267" duration="20106000" />
+      <workItem from="1587239109903" duration="2840000" />
+      <workItem from="1587293471347" duration="3721000" />
     </task>
     <task id="LOCAL-00001" summary="follower,followee functionality Updated.">
       <created>1584130688224</created>
@@ -188,7 +198,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -220,10 +230,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="94" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1582626074323" />
-    <state x="512" y="227" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586801944737">
+    <state x="512" y="227" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587295854692">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="512" y="227" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1586801944737" />
+    <state x="512" y="227" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1587295854692" />
     <state x="512" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1582831027654" />
     <state x="449" y="153" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587238968611">
       <screen x="0" y="0" width="1536" height="834" />
@@ -242,25 +252,25 @@
     </state>
     <state x="549" y="183" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1584206200818" />
     <state x="549" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1582600069530" />
-    <state width="1493" height="253" key="GridCell.Tab.0.bottom" timestamp="1587239009250">
+    <state width="1493" height="331" key="GridCell.Tab.0.bottom" timestamp="1587296508464">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1587239009250" />
+    <state width="1493" height="331" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1587296508464" />
     <state width="1493" height="374" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1582882855619" />
-    <state width="1493" height="253" key="GridCell.Tab.0.center" timestamp="1587239009250">
+    <state width="1493" height="331" key="GridCell.Tab.0.center" timestamp="1587296508464">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1587239009250" />
+    <state width="1493" height="331" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1587296508464" />
     <state width="1493" height="374" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1582882855619" />
-    <state width="1493" height="253" key="GridCell.Tab.0.left" timestamp="1587239009250">
+    <state width="1493" height="331" key="GridCell.Tab.0.left" timestamp="1587296508464">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1587239009250" />
+    <state width="1493" height="331" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1587296508464" />
     <state width="1493" height="374" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1582882855619" />
-    <state width="1493" height="253" key="GridCell.Tab.0.right" timestamp="1587239009250">
+    <state width="1493" height="331" key="GridCell.Tab.0.right" timestamp="1587296508464">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1587239009250" />
+    <state width="1493" height="331" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1587296508464" />
     <state width="1493" height="374" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1582882855619" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1586985851195">
       <screen x="0" y="0" width="1536" height="834" />
