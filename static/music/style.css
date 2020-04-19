@@ -6,7 +6,7 @@ body {
 
 
     /* Center and scale the image nicely */
-    background-color: black;
+    background-color: midnightblue;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,7 +44,8 @@ ul.errorlist > li {
 /* importing diff */
 
 .content-section {
-    background: #ffffff;
+    /*background: #ffffff;*/
+    background: #003366;
     padding: 10px 20px;
     border: 1px solid #dddddd;
     border-radius: 3px;
@@ -53,4 +54,23 @@ ul.errorlist > li {
 
 .private-area {
   margin: 0 0 3px 0;
+}
+
+h1{
+    background-color: white;
+}
+h2{
+    background-color: white;
+}
+h3{
+    background-color: white;
+}
+h4{
+    background-color: white;
+}
+h5{
+    background-color: white;
+}
+h6{
+    background-color: white;
 }
