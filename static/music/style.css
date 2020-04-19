@@ -6,7 +6,7 @@ body {
 
 
     /* Center and scale the image nicely */
-    background-color: midnightblue;
+    background-color: #2B2B52;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,7 +45,7 @@ ul.errorlist > li {
 
 .content-section {
     /*background: #ffffff;*/
-    background: #003366;
+    background: #2B2B52;
     padding: 10px 20px;
     border: 1px solid #dddddd;
     border-radius: 3px;
@@ -73,4 +73,11 @@ h5{
 }
 h6{
     background-color: white;
+}
+span{
+    background-color: white;
+}
+a{
+    background-color: white;
+    text-decoration-color: white;
 }
