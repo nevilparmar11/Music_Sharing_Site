@@ -49,4 +49,4 @@ Music sharing site made in django.
 - Logout</br>
 
 # Website Link
-(http://ctkmusic.herokuapp.com/)
+http://ctkmusic.herokuapp.com/
