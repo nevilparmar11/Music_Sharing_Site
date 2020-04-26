@@ -11,23 +11,23 @@ Music sharing site made in django.
 
 - Dashboard: It has 4 different types of albums </br>
 
-	     1.) Private / Uniquely yours albums [including private & public both]  </br>
-	     2.) Received Albums</br>
-		- Albums which are shared by another users to you only will fall into this category</br>
-	     3.) Friends Albums</br>
-		- It contains Public Albums of users whom you follow</br>
-	     4.) Browse All</br>
-		- It contains all the public albums of all available users on the site </br>
+	     1.) Private / Uniquely yours albums [including private & public both]  
+	     2.) Received Albums
+		- Albums which are shared by another users to you only will fall into this category
+	     3.) Friends Albums
+		- It contains Public Albums of users whom you follow
+	     4.) Browse All
+		- It contains all the public albums of all available users on the site 
 	
 
-	     Create new Albums and uploads song </br>
-             View/Edit/Delete own albums </br>
-             View albums shared by other users </br>
-             View Friends' albums </br>
-             View public albums of all users </br>
-             Share/Unshare own albums </br>
-             Search any albums with album title, artist, genre </br>
-	     Search with specific album category </br>
+	     Create new Albums and uploads song 
+             View/Edit/Delete own albums 
+             View albums shared by other users 
+             View Friends' albums 
+             View public albums of all users 
+             Share/Unshare own albums 
+             Search any albums with album title, artist, genre 
+	     Search with specific album category 
 
 - listen/search all songs with their album names </br>
 
