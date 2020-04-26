@@ -48,5 +48,11 @@ Music sharing site made in django.
 
 - Logout</br>
 
+# How to run ?
+	1.) Go to Music_Sharing_Site2 folder
+	2.) Create new virtual env by running 'python -m venv env' or use existing venv inside project. [virtual env is recommended]
+	3.) Open terminal there and run 'pip install -r Music_Sharing_Site2/requirements.txt' . It will install all the required packages.
+	4.) apply migrations and finally python manage.py runserver
+
 # Website Link
 http://ctkmusic.herokuapp.com/
