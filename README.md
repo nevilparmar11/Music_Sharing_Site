@@ -1,6 +1,8 @@
 # Music_Sharing_Site
 Music sharing site made in django.
 
+![logo](https://user-images.githubusercontent.com/48133426/111732573-c74db880-889b-11eb-83c3-36cbadcc40de.png)
+
 # List of Feature
 
 - Home page: Describes website and link to login page </br>
@@ -56,3 +58,18 @@ Music sharing site made in django.
 
 # Website Link
 http://ctkmusic.herokuapp.com/
+
+---------
+
+```javascript
+
+if (youEnjoyed) {
+    starThisRepository();
+}
+
+```
+
+-----------
+
+## Thank You
+- Author : [Nevil Parmar](https://nevilparmar.me)
